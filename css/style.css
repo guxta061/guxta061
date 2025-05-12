@@ -1,118 +1,101 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #1a1a1a;
-  color: #d0ffd6;
-  margin: 0;
-  transition: background-color 0.5s, color 0.5s;
+  background-color: #f4f4f4;
+  color: #222;
+  transition: background 0.4s, color 0.4s;
 }
 
 .dark-mode {
-  background-color: #1a1a1a;
-  color: #d0ffd6;
+  background-color: #111;
+  color: #f4f4f4;
 }
 
-.navbar {
-  background-color: #141414;
-  color: #d0ffd6;
+header {
+  background-color: #222;
+  padding: 1rem 2rem;
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 100;
-  border-bottom: 1px solid #2effa7;
 }
 
-.navbar .logo {
-  font-size: 22px;
-  font-weight: bold;
+.dark-mode header {
+  background-color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 18px;
+  gap: 1rem;
 }
 
-.nav-links li a {
-  color: #2effa7;
+.nav-links a {
   text-decoration: none;
+  color: white;
+  font-weight: bold;
   transition: color 0.3s;
 }
 
-.nav-links li a:hover {
-  color: #1dd68f;
-}
-
-#toggle-theme {
-  background: none;
-  color: #2effa7;
-  font-size: 20px;
-  cursor: pointer;
-  border: none;
-  transition: transform 0.3s;
-}
-
-#toggle-theme:hover {
-  transform: rotate(20deg);
+.nav-links a:hover {
+  color: #4caf50;
 }
 
 .section {
-  padding: 120px 30px 60px;
-  max-width: 900px;
-  margin: 0 auto;
-  border-bottom: 1px solid #2effa7;
-  transition: background-color 0.4s ease;
+  padding: 4rem 2rem;
+  border-bottom: 1px solid #ddd;
+  transition: background 0.3s ease-in-out;
 }
 
-.section h2 {
-  margin-bottom: 16px;
-  color: #2effa7;
+.highlight {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #2e7d32;
 }
 
-.section ul {
-  margin-top: 10px;
-  padding-left: 20px;
+.dark-mode .highlight {
+  color: #81c784;
 }
 
-.destaque {
-  text-align: center;
-  background: linear-gradient(to right, #141e1b, #1b2b28);
-  border-left: 5px solid #2effa7;
-  border-radius: 8px;
+ul {
+  padding-left: 1.5rem;
 }
 
 .social-icons {
+  font-size: 2rem;
   display: flex;
-  gap: 20px;
-  font-size: 30px;
-  margin-top: 20px;
+  gap: 1.2rem;
+  margin-top: 1rem;
 }
 
 .social-icons a {
-  color: #2effa7;
-  transition: color 0.3s, transform 0.3s;
+  color: #2e7d32;
+  transition: transform 0.3s, color 0.3s;
 }
 
 .social-icons a:hover {
-  color: #1dd68f;
-  transform: scale(1.1);
+  color: #66bb6a;
+  transform: scale(1.2);
 }
 
 footer {
+  background: #222;
+  color: white;
   text-align: center;
-  padding: 40px 20px;
-  font-size: 14px;
-  background-color: #141414;
-  border-top: 1px solid #2effa7;
+  padding: 1rem;
 }
 
-.despedida {
-  text-align: center;
-  background-color: #1d1d1d;
-  padding-bottom: 80px;
+.destaque {
+  background: #e8f5e9;
+}
+
+.dark-mode .destaque {
+  background: #1b1b1b;
 }
 
 
