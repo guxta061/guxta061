@@ -1,19 +1,19 @@
 body {
-  font-family: 'Fira Code', monospace;
-  background-color: #000;
-  color: #00ff88;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1a1a1a;
+  color: #d0ffd6;
   margin: 0;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 .dark-mode {
-  background-color: #000;
-  color: #00ff88;
+  background-color: #1a1a1a;
+  color: #d0ffd6;
 }
 
 .navbar {
-  background-color: #000;
-  color: #00ff88;
+  background-color: #141414;
+  color: #d0ffd6;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,58 +22,97 @@ body {
   width: 100%;
   top: 0;
   z-index: 100;
-  border-bottom: 1px solid #00ff88;
+  border-bottom: 1px solid #2effa7;
 }
 
 .navbar .logo {
-  font-size: 24px;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 18px;
 }
 
 .nav-links li a {
-  color: #00ff88;
+  color: #2effa7;
   text-decoration: none;
-  font-weight: bold;
   transition: color 0.3s;
 }
 
 .nav-links li a:hover {
-  color: #00cc66;
+  color: #1dd68f;
 }
 
 #toggle-theme {
   background: none;
-  color: #00ff88;
+  color: #2effa7;
   font-size: 20px;
   cursor: pointer;
   border: none;
+  transition: transform 0.3s;
+}
+
+#toggle-theme:hover {
+  transform: rotate(20deg);
 }
 
 .section {
-  padding: 100px 30px 60px;
+  padding: 120px 30px 60px;
   max-width: 900px;
   margin: 0 auto;
+  border-bottom: 1px solid #2effa7;
+  transition: background-color 0.4s ease;
 }
 
-h2 {
-  color: #00ff88;
-  margin-bottom: 20px;
+.section h2 {
+  margin-bottom: 16px;
+  color: #2effa7;
 }
 
-ul {
+.section ul {
   margin-top: 10px;
   padding-left: 20px;
+}
+
+.destaque {
+  text-align: center;
+  background: linear-gradient(to right, #141e1b, #1b2b28);
+  border-left: 5px solid #2effa7;
+  border-radius: 8px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #2effa7;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons a:hover {
+  color: #1dd68f;
+  transform: scale(1.1);
 }
 
 footer {
   text-align: center;
   padding: 40px 20px;
   font-size: 14px;
-  border-top: 1px solid #00ff88;
+  background-color: #141414;
+  border-top: 1px solid #2effa7;
 }
+
+.despedida {
+  text-align: center;
+  background-color: #1d1d1d;
+  padding-bottom: 80px;
+}
+
 
