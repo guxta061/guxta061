@@ -5,45 +5,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfólio de Gustavo</title>
 
-  <!-- CSS -->
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header>
-    <h1>Bem-vindo ao meu portfólio</h1>
-    <button id="toggle-theme">Alternar Tema</button>
+    <nav class="navbar">
+      <h1 class="logo">Gustavo</h1>
+      <ul class="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#quem-sou">Quem sou</a></li>
+        <li><a href="#certificados">Certificados</a></li>
+        <li><a href="#conhecimentos">Conhecimentos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <button id="toggle-theme">🌙</button>
+    </nav>
   </header>
 
   <main>
-    <section>
-      <h2>Sobre mim</h2>
-      <p>Estudante de Ciência da Computação no CEUB.</p>
-      <p>Interessado em desenvolvimento de software, algoritmos e sistemas.</p>
-      <p>Sempre buscando aprender e praticar novas habilidades.</p>
+    <section id="inicio" class="section">
+      <h2>Bem-vindo ao meu portfólio</h2>
+      <p>Olá! Este é meu espaço pessoal na web.</p>
     </section>
 
-    <hr />
+    <section id="quem-sou" class="section">
+      <h2>Quem sou</h2>
+      <p>Meu nome é Gustavo, estudante de Ciência da Computação no CEUB.</p>
+      <p>Sou apaixonado por desenvolvimento de software, algoritmos e soluções criativas.</p>
+      <h3>Meus Objetivos</h3>
+      <p>Me tornar um desenvolvedor completo, combinando lógica, criatividade e boas práticas.</p>
+      <h3>Minhas Habilidades</h3>
+      <ul>
+        <li>Programação em C, C++, Python, Java</li>
+        <li>HTML, CSS, Git</li>
+        <li>Lógica de programação</li>
+        <li>Trabalho em equipe e comunicação</li>
+      </ul>
+    </section>
 
-    <section>
+    <section id="certificados" class="section">
+      <h2>Certificados</h2>
+      <p>Em breve aqui estarão listados meus certificados de cursos e treinamentos.</p>
+    </section>
+
+    <section id="conhecimentos" class="section">
+      <h2>Conhecimentos</h2>
+      <p>Além da programação, também me interesso por bancos de dados, sistemas operacionais e arte digital.</p>
+    </section>
+
+    <section id="contato" class="section">
       <h2>Vamos nos conectar?</h2>
-      <p>
-        <a href="https://www.linkedin.com/in/seu-usuario" target="_blank">
-          <img src="https://img.shields.io/badge/LinkedIn-Perfil-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn">
-        </a>
-      </p>
+      <a href="https://www.linkedin.com/in/seu-usuario" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-Perfil-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+      </a>
     </section>
 
-    <hr />
-
-    <p align="center">Obrigado por visitar meu perfil!</p>
+    <footer>
+      <p>&copy; 2025 Gustavo • Obrigado por visitar meu perfil!</p>
+    </footer>
   </main>
 
-  <footer>
-    <p>&copy; 2025 Gustavo</p>
-  </footer>
-
-  <!-- JavaScript -->
   <script src="js/theme-toggle.js"></script>
 </body>
 </html>
+
