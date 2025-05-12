@@ -1,25 +1,37 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: #f4f4f4;
-  color: #222;
-  transition: background 0.4s, color 0.4s;
+  background-color: #121212;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
 }
 
 .dark-mode {
-  background-color: #111;
-  color: #f4f4f4;
+  background-color: #121212;
+  color: #fff;
 }
 
 header {
-  background-color: #222;
+  background-color: #1b1b1b;
   padding: 1rem 2rem;
-  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.dark-mode header {
-  background-color: #333;
+header .logo {
+  font-size: 2rem;
+  color: #81c784;
 }
 
 .navbar {
@@ -32,34 +44,55 @@ header {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .nav-links a {
   text-decoration: none;
-  color: white;
+  color: #81c784;
   font-weight: bold;
-  transition: color 0.3s;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .nav-links a:hover {
-  color: #4caf50;
+  color: #66bb6a;
+  transform: scale(1.1);
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: #81c784;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #66bb6a;
 }
 
 .section {
   padding: 4rem 2rem;
-  border-bottom: 1px solid #ddd;
-  transition: background 0.3s ease-in-out;
+  border-bottom: 1px solid #2e7d32;
+  transition: transform 0.4s ease, background 0.4s ease;
+}
+
+.section:hover {
+  transform: translateY(-5px);
+  background-color: #2e7d32;
 }
 
 .highlight {
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  color: #2e7d32;
+  color: #81c784;
+  transition: color 0.3s ease;
 }
 
-.dark-mode .highlight {
-  color: #81c784;
+.section:hover .highlight {
+  color: #66bb6a;
 }
 
 ul {
@@ -74,8 +107,8 @@ ul {
 }
 
 .social-icons a {
-  color: #2e7d32;
-  transition: transform 0.3s, color 0.3s;
+  color: #81c784;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .social-icons a:hover {
@@ -84,17 +117,39 @@ ul {
 }
 
 footer {
-  background: #222;
-  color: white;
+  background: #1b1b1b;
+  color: #81c784;
   text-align: center;
   padding: 1rem;
 }
 
 .destaque {
-  background: #e8f5e9;
+  background: #2e7d32;
 }
 
 .dark-mode .destaque {
-  background: #1b1b1b;
+  background: #66bb6a;
 }
+
+.despedida {
+  background: #1b1b1b;
+  color: #81c784;
+}
+
+button#toggle-theme {
+  font-size: 1.5rem;
+  color: #66bb6a;
+}
+
+button#toggle-theme:hover {
+  color: #81c784;
+}
+
+footer p {
+  color: #81c784;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+}
+
+
 
