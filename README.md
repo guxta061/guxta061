@@ -21,7 +21,6 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=fff" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=fff" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=fff" />
-  <img src="https://img.shields.io/bstats/players/:pluginid" />
 </p>
 
 ---
