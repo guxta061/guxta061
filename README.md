@@ -7,8 +7,9 @@
 
 ## 👋 Sobre mim
 
-🎓 Sou um desenvolvedor apaixonado por tecnologia, inovação e soluções criativas.  
-💻 Atualmente estou focado em desenvolvimento **Full Stack**, com experiência em **python**, **MYSQL**, **Java**, **C**.  
+🎓 Sou um desenvolvedor apaixonado por tecnologia, inovação e soluções criativas.
+💡 Atualmente cursando o 3º semestre de Ciencias da computação CEUB.
+💻 Atualmente estou focado em desenvolvimento **Full Stack**, com experiência em **python**, **MYSQL**, **Java**, **HTML**.  
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
