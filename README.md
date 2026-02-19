@@ -8,10 +8,7 @@
 ## 👋 Sobre mim
 
 🎓 Sou um desenvolvedor apaixonado por tecnologia, inovação e soluções criativas.  
-💻 Atualmente estou focado em desenvolvimento **Full Stack**, com experiência em **JavaScript**, **React**, **Node.js**, **Python** e **SQL**.  
-🚀 Estou sempre explorando novas tecnologias, frameworks e boas práticas para entregar projetos cada vez mais sólidos e escaláveis.  
-📚 Acredito que a programação transforma o mundo e conecta pessoas!
-
+💻 Atualmente estou focado em desenvolvimento **Full Stack**, com experiência em **python**, **MYSQL**, **Java**, **C**.  
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
@@ -44,7 +41,6 @@
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in//)
 [![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/_.gustavo.h_/)
-[![Portfólio](https://img.shields.io/badge/-Portf%C3%B3lio-121212?style=flat&logo=vercel&logoColor=white)](https://seuportfolio.com)
 
 ---
 
